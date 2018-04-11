@@ -1,0 +1,325 @@
+@import url(http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,300italic);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700);
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    height: 100%;
+    width: 100%;
+}
+
+html{
+  font-size: 16px;
+  height: 100%;
+  width: 100%;
+}
+
+#banner {
+    background-image: url("../images/appfood.jpeg");
+    height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+#banner-fg {
+    height: 100%;
+    background-color: rgba(255,255, 255, 0.61)
+}
+
+@media (max-width: 575px){
+    #banner{
+        background-attachment: scroll;
+    }
+}
+
+.navbar-offset {
+    margin-top: 0rem;
+    padding-top: 5rem;
+}
+
+.share:hover, .share:focus{
+  text-decoration: none;
+}
+
+section h2 {
+    margin-bottom: 2rem;
+}
+
+.logo-first{
+  color: #3366ff;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.logo-last{
+  color: #088A08;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.superShadow {
+    text-shadow: 0 1px 0 hsl(174, 5%, 80%), 0 2px 0 hsl(174, 5%, 75%), 0 3px 0 hsl(174, 5%, 70%), 0 4px 0 hsl(174, 5%, 66%), 0 5px 0 hsl(174, 5%, 64%), 0 6px 0 hsl(174, 5%, 62%), 0 7px 0 hsl(174, 5%, 61%), 0 8px 0 hsl(174, 5%, 60%), 0 0 5px rgba(0, 0, 0, .5), 0 1px 3px rgba(0, 0, 0, .2), 0 3px 5px rgba(0, 0, 0, .2), 0 5px 10px rgba(0, 0, 0, .2), 0 10px 10px rgba(0, 0, 0, .2), 0 20px 20px rgba(0, 0, 0, .3);
+}
+
+#share-buttons img {
+    width: 50px;
+    padding: 5px;
+    border: 0;
+    box-shadow: 0;
+    display: inline;
+    margin-bottom: 20px;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1 {
+    font-size: 60px;
+    color: rgb(84, 68, 180);
+}
+
+h2 {
+    font-size: 45px;
+    font-weight: 200;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+
+p {
+    font-size: 15px;
+}
+
+ul {
+    padding-left: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+
+header {
+    -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+    -ms-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+    -o-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+    background: rgba(255, 255, 255, 0.96);
+    padding: 8px 0;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+
+header .logo {
+    display: inline-block;
+    margin-top: 8px;
+}
+
+header .social-info {
+    margin-bottom: 0;
+    padding-top: 8px;
+    text-align: right;
+}
+
+header .social-info li {
+    display: inline-block;
+}
+
+header .social-info li:first-child a {
+    border-left: 1px solid #dedede;
+}
+
+header .social-info li a {
+    color: #aeaeae;
+    padding: 3px 8px;
+    border-right: 1px solid #dedede;
+}
+
+header .social-info li a:hover {
+    color: #f48e5c;
+}
+
+#title{
+  color:#3366ff;
+  font-size: 60px;
+}
+#subtitle{
+  color: rgb(16, 152, 152);
+  font-size: 30px;
+}
+
+.bg-contain{
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  text-align: center;
+}
+
+.bg-contain-fg{
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+#feature {
+    padding: 50px 0;
+    margin-top: 50px;
+    border-top: 1px solid #dedede;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+#feature .title {
+    font-weight: 300;
+
+}
+#feature .feature-item {
+    margin-top: 10px;
+}
+
+#feature .feature-item:first-child {
+    margin-top: 0;
+}
+
+#feature .feature-item .icon {
+    padding-right: 22px;
+}
+
+#feature .feature-item .icon i {
+    color: rgb(246, 121, 5);
+    font-size: 30px;
+}
+
+#feature .feature-item h4 {
+    color: rgb(203, 67, 0);
+    margin-bottom: 0;
+    font-weight: 300;
+    margin-bottom: 8px;
+
+}
+
+#feature .feature-item p {
+    color: #9499a2;
+}
+
+#feature .block {
+    text-align: center;
+}
+
+#feature .block img {
+    display: inline-block;
+}
+
+#subscribe {
+    padding: 70px 0;
+}
+
+#subscribe .block {
+    border-top: 1px solid #dedede;
+    padding-top: 40px;
+}
+
+#subscribe p {
+    color: #96908E;
+}
+
+#subscribe .form-inline {
+    padding-top: 16px;
+}
+
+#subscribe .form-inline .form-group {
+    position: relative;
+}
+
+#subscribe .form-inline .form-group input {
+    width: 340px;
+    padding: 20px 0px 20px 15px;
+    border-radius: 0;
+    background: white;
+    border: 1px solid #d4d4d4;
+    border: 1px solid #d1d1d1;
+    box-shadow: none;
+}
+
+#subscribe .form-inline .form-group input:hover, #subscribe .form-inline .form-group input:active, #subscribe .form-inline .form-group input:focus {
+    box-shadow: none;
+}
+
+#subscribe .form-inline i {
+    font-size: 18px;
+    color: #fff;
+    display: inline-block;
+}
+
+#subscribe .btn-signup {
+    background: #77c344;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 0;
+    border: none;
+    margin-left: -4px;
+    border: 1px solid transparent;
+    -webkit-transition: .2s all;
+    -o-transition: .2s all;
+    transition: .2s all;
+}
+
+#subscribe .btn-signup:hover {
+    background: #fff;
+    border: 1px solid #77c344;
+}
+
+#subscribe .btn-signup:hover i {
+    color: #77c344;
+}
+#sub_bot{
+  color:rgb(19, 148, 28);
+  font-family: 'Dancing Script', cursive;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+footer {
+    background: #f9f9f9;
+    border-top: 1px solid #e8e8e8;
+    padding: 40px 0 20px;
+}
+
+footer .footer-logo {
+    margin-bottom: 15px;
+    display: inline-block;
+    text-align: center;
+}
+
+footer p {
+    color: #6F6F6F;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+.carousel-content {
+  position: absolute;
+  bottom: 10%;
+  left: 5%;
+  z-index: 20;
+  color: white;
+  text-shadow: 0 1px 2px rgba(0,0,0,.6);
+}
